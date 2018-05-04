@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="16" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.8.0.0" clr-version="4.0.30319.42000" start-time="2018-05-02 12:52:24Z" end-time="2018-05-02 12:52:53Z" duration="29.187646">
+  <command-line><![CDATA[nunit3-console.exe  "C:\ProjetoNUnit\jobmidia\PicklesSpecflow.dll" --result="jobmidiaresult.xml;format=nunit3" --work=".\FormularioResultados" --where "cat=console"]]></command-line>
+  <filter>
+    <cat>console</cat>
+  </filter>
+  <test-suite type="Assembly" id="0-1021" name="PicklesSpecflow.dll" fullname="C:\ProjetoNUnit\jobmidia\PicklesSpecflow.dll" runstate="Runnable" testcasecount="16" result="Passed" start-time="2018-05-02 12:52:25Z" end-time="2018-05-02 12:52:53Z" duration="27.808906" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.9.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.16299.0" platform="Win32NT" cwd="C:\ProjetoNUnit\NUnit.ConsoleRunner.3.8.0\tools" machine-name="GMEPN002297" user="frank" user-domain="GMEPN002297" culture="pt-BR" uiculture="pt-BR" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value=".\FormularioResultados" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="17064" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1022" name="PicklesSpecflow" fullname="PicklesSpecflow" runstate="Runnable" testcasecount="16" result="Passed" start-time="2018-05-02 12:52:25Z" end-time="2018-05-02 12:52:53Z" duration="27.776752" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <properties />
+      <test-suite type="TestSuite" id="0-1023" name="Testes" fullname="PicklesSpecflow.Testes" runstate="Runnable" testcasecount="16" result="Passed" start-time="2018-05-02 12:52:25Z" end-time="2018-05-02 12:52:53Z" duration="27.775064" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <properties />
+        <test-suite type="TestSuite" id="0-1024" name="FormulariodeContato" fullname="PicklesSpecflow.Testes.FormulariodeContato" runstate="Runnable" testcasecount="16" result="Passed" start-time="2018-05-02 12:52:25Z" end-time="2018-05-02 12:52:53Z" duration="27.775019" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties />
+          <test-suite type="TestFixture" id="0-1000" name="FormularioDeContatoFeature" fullname="PicklesSpecflow.Testes.FormulariodeContato.FormularioDeContatoFeature" classname="PicklesSpecflow.Testes.FormulariodeContato.FormularioDeContatoFeature" runstate="Runnable" testcasecount="16" result="Passed" start-time="2018-05-02 12:52:25Z" end-time="2018-05-02 12:52:53Z" duration="27.767214" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="Formulario de Contato" />
+              <property name="ParallelScope" value="Self" />
+            </properties>
+            <output><![CDATA[-> Using app.config
+]]></output>
+            <test-suite type="ParameterizedMethod" id="0-1002" name="PreenchimentoDoFormularioCorretamente" fullname="PicklesSpecflow.Testes.FormulariodeContato.FormularioDeContatoFeature.PreenchimentoDoFormularioCorretamente" classname="PicklesSpecflow.Testes.FormulariodeContato.FormularioDeContatoFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2018-05-02 12:52:26Z" end-time="2018-05-02 12:52:53Z" duration="26.979153" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+              <properties>
+                <property name="Description" value="Preenchimento do formulario corretamente" />
+                <property name="Category" value="console" />
+              </properties>
+              <test-case id="0-1001" name="PreenchimentoDoFormularioCorretamente with Chrome" fullname="PicklesSpecflow.Testes.FormulariodeContato.FormularioDeContatoFeature.PreenchimentoDoFormularioCorretamente with Chrome" methodname="PreenchimentoDoFormularioCorretamente" classname="PicklesSpecflow.Testes.FormulariodeContato.FormularioDeContatoFeature" runstate="Runnable" seed="1199929356" result="Passed" start-time="2018-05-02 12:52:26Z" end-time="2018-05-02 12:52:53Z" duration="26.967756" asserts="1">
+                <properties>
+                  <property name="Category" value="Chrome" />
+                </properties>
+                <output><![CDATA[Dado que eu esteja no site jobmidia
+-> done: BaseFormulario.DadoQueEuEstejaNoSiteJobmidia_Com_Br() (16,2s)
+E navego em formulario de contato
+-> done: BaseFormulario.QuandoEuNavegarAteAAreaDoFormularioDeContato() (2,2s)
+E informo todos os dados
+  --- table step argument ---
+  | Nome     | Email                   | Telefone      | Mensagem          |
+  | Franklin | franklinjob@hotmail.com | (21)991475281 | Teste de Mensagem |
+-> done: BaseFormulario.PreenchimentoFormulario(<table>) (1,5s)
+Quando envio o formulario
+-> done: BaseFormulario.EnviarFormulario() (2,1s)
+Então recebo a mensagem de sucesso 'Sua mensagem foi enviada com sucesso.'
+-> done: BaseFormulario.MensagemDeSucesso("Sua mensagem foi ...") (0,1s)
+]]></output>
+              </test-case>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
